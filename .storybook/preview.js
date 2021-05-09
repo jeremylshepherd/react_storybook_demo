@@ -5,6 +5,7 @@ export const parameters = {
     matchers: {
       color: /(background|color)$/i,
       date: /Date$/,
+      order: ['foundations', ['Introduction'], 'atoms', ['Button', 'Input', 'Label'], 'molecules', ['Card', 'Form', 'Header'], 'organisms', ['Page', 'Warpper']]
     },
   },
 }
